@@ -1,5 +1,5 @@
 .carrossel__titulo {
-    padding: 1rem 0 0.5rem 0;
+    padding: 1rem 0;
     background-color: var(--branco);
     font-size: 18px;
     font-weight: 700;
@@ -32,6 +32,7 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 0.5em;
+    gap: 1em;
 }
 .descricao__titulo {
     color: var(--laranja);
@@ -39,20 +40,27 @@
 }
 .descricao__titulo-livro {
     color: var(--azul);
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 700;
     margin: 0.5em 0;
 }
 .descricao__texto {
     font-size: 14px;
+    line-height: 1.5em;
+}
+
+.img-estrelinhas {
+    margin-bottom: 0.4em;
 }
 
 .card__botoes {
     display: flex;
     justify-content: space-between;
+    margin-top: 1.3em;
 }
 .botoes {
     display: flex;
+    align-items: center;
 }
 .botoes__item {
     margin: 0 0.5em;
