@@ -63,7 +63,7 @@
     align-items: center;
 }
 .botoes__item {
-    margin: 0 0.5em;
+    margin-right: 1em;
 }
 .botoes__ancora {
     background-color: var(--laranja);
