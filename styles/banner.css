@@ -23,7 +23,6 @@
 }
 .banner__pesquisa::placeholder {
     background: url('../img/Lupa.svg') no-repeat;
-    background-position: 1em;
     font-family: var(--fonte-principal);
     font-size: 14px;
     font-weight: 400;

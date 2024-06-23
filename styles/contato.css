@@ -25,10 +25,17 @@
     color: var(--azul);
 }
 .contato__email::placeholder {
+    padding-left: 2em;
+    background: url('../img/Email.svg') no-repeat;
+    background-position: center;
+    background-position: 4.5em;
+    text-align: center;
     font-family: var(--fonte-principal);
     color: var(--azul);
-    background: url('../img/Email.svg') no-repeat;
-    padding-left: 2em;
+}
+.contato__email:focus::-webkit-input-placeholder {
+    background: none;
+    color: transparent;
 }
 
 @media screen and (min-width: 1024px) {
@@ -47,9 +54,5 @@
     .contato__email::placeholder {
         text-align: center;
         background-position: 4em;
-    }
-    .contato__email:focus::-webkit-input-placeholder {
-        background: none;
-        color: transparent;
     }
 }
