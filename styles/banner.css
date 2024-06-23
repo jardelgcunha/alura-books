@@ -45,3 +45,10 @@
         background-position: 6em;
     }
 }
+
+@media screen and (min-width: 1500px) {
+    .banner__pesquisa::placeholder {
+        background-position: center;
+        background-position: 14em;
+    }
+}
