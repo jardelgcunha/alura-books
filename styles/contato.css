@@ -56,3 +56,9 @@
         background-position: 4em;
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .contato {
+        padding: 3em;
+    }
+}

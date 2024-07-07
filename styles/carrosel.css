@@ -107,3 +107,37 @@
         width: 82%;
     }
 }
+
+@media screen and (min-width: 1500px) {
+    .carrossel__container {
+        margin: 3em;
+        display: flex;
+        align-items: center;
+        gap: 3em;
+    }
+
+    .swiper {
+        width: 55%;
+    }
+    .swiper-pagination {
+        display: none;
+    }
+    .swiper-slide img {
+        width: 90%;
+    }
+    .swiper-button-prev,
+    .swiper-button-next {
+        top: 50%;
+        margin-right: 0.5em;
+    }
+    .card {
+        width: 40%;
+        margin: 3em 0;
+    }
+    .card__descricao {
+        gap: 0;
+    }
+    .descricao__titulo {
+        font-size: 18px;
+    }
+}
